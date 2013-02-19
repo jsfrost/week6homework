@@ -16,7 +16,7 @@ class MyClass
     end
 
     # keep yourself sane! uncomment to debug
-    puts odds
+    # puts odds
 
     if odds < 0 || odds > 1
       raise InvalidOdds, "Expected value between 0 and 1, but got: #{odds}"
